@@ -1,3 +1,7 @@
+Forked from https://github.com/jeroenbellen/blog-manage-and-reload-spring-properties
+
+The following text is about creating configuration service as a standalone application. If instead you with to configure embedded configration server see README in module 'embedded-config-server'
+
 # Manage and reload spring application properties on the fly
 
 By now, everybody is aware that configurable application properties should reside outside your artifact (war, jar, ear). We don't want to release a new version of your application/service, just to change a config file. Furthermore, we want the production artifact, to be identical to the object of development, test, etc.
